@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.vscode/
+.env
+Dockerfile
+.git/
+.gitignore
+.prettierrc
+eslint.config.mjs
+*.md

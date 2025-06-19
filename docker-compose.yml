@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  nest-app:
+    build:
+      context: .
+    ports: -"4001:4000"
+    environment:
+      - PORT=4000
+    command: ['yarn', 'start:prod']
+  postgres:
+    image: postgres:17.5
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=mydb
