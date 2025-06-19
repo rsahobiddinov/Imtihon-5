@@ -1,7 +1,7 @@
 import { Injectable, InternalServerErrorException } from '@nestjs/common';
 import { OtpService } from './otp.service';
 import  RedisService  from 'src/core/database/redis.service';
-import { ResendService } from 'nestjs-resend';
+import { ResendService } from 'src/core/resend/resend.service';
 import { ConfigService } from '@nestjs/config';
 import { JwtService } from '@nestjs/jwt';
 
