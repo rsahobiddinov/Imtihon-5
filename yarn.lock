@@ -9368,7 +9368,7 @@ require-from-string@^2.0.2:
   resolved "https://registry.npmjs.org/require-from-string/-/require-from-string-2.0.2.tgz"
   integrity sha512-Xf0nWe6RseziFMu+Ap9biiUbmplq6S9/p+7w7YXP/JBHhrUDDUhwa+vANyubuqfZWTveU//DYVGsDG7RKL/vEw==
 
-resend@^4.0.0:
+resend@^4.0.0, resend@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/resend/-/resend-4.6.0.tgz#e0e66fd225b0a0b6729807ec0cf83f2a5f6be3f2"
   integrity sha512-D5T2I82FvEUYFlrHzaDvVtr5ADHdhuoLaXgLFGABKyNtQgPWIuz0Vp2L2Evx779qjK37aF4kcw1yXJDHhA2JnQ==

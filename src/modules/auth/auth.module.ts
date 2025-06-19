@@ -7,9 +7,13 @@ import { UsersModule } from '../users/users.module';
 import { UsersService } from '../users/users.service';
 import  OtpSecurity  from './otp.security.service';
 import { EmailOtpService } from './email.service';
+import { ResendModule } from 'src/core/resend/resend.module';  
 
 @Module({
-  imports: [forwardRef(() => UsersModule)],
+  imports: [
+    forwardRef(() => UsersModule),
+    ResendModule, 
+  ],
   controllers: [AuthController],
   providers: [
     AuthService,
